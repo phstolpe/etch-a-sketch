@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 900px;
+  height: 900px;
+  border: 2px black solid;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+}
+
+.grid-item {
+  flex: auto;
+}
+
+.filled {
+  background-color: black;
+}
